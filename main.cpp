@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
 
     QApplication app(argc, argv);
-    qputenv("QTWEBENGINE_CHROMIUM_FLAGS",QByteArray("--enable-logging --log-level=3"));
+    qputenv("QTWEBENGINE_CHROMIUM_FLAGS",QByteArray("--no-sandbox --enable-logging --log-level=3"));
     ScreenshotImageProvider *scImageProvider = new ScreenshotImageProvider();
     ScreenshotTool *scTool = new ScreenshotTool(scImageProvider);
     QObject::connect(scTool, SIGNAL(screenshotTaken(QString, QPixmap)), scImageProvider, SLOT(screenshotTaken(QString,QPixmap)));
