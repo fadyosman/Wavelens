@@ -1,4 +1,4 @@
-## WaveLens (pronounce similar to Wave Length)
+## WaveLens (pronounced similar to Wave Length)
 <p align="center">
 <img src="images/wavelens.png" alt="drawing" width="200"/><br />
 WaveLength Tool
