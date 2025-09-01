@@ -22,10 +22,10 @@ WaveLens Tool
 You can also view the file using sqlitebrowser tool as seen below.<br />
 <p align="center">
 <img src="images/sqlitebrowser.png" alt="drawing"/><br />
-Viewing results in sqlite browser
+Viewing results in sqlitebrowser
 </p>
 
 
 ## Building From Source
-Simple open `WaveLens.pro` in qtcreator and click the build button.
+Simply open `WaveLens.pro` in qtcreator and click the build button.
 
